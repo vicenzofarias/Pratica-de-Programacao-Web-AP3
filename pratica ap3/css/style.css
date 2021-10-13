@@ -1,0 +1,194 @@
+:root {
+  --main-color: #2a6db1;
+  --black: #244361;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+  scroll-padding-top: 60px;
+}
+
+section {
+  padding: 20px 0;
+}
+
+section:nth-child(odd) {
+  background: #f8f8fe;
+}
+
+.heading {
+  text-align: center;
+  padding: 0 15px;
+  padding-bottom: 5px;
+  color: var(--black);
+  font-size: 30px;
+}
+
+.link-btn {
+  display: inline-block;
+  background: var(--main-color);
+  color: #fff;
+  border-radius: 50px;
+  padding: 5px 25px;
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+}
+
+.link-btn:hover {
+  color: #fff;
+  background: var(--black);
+}
+
+header {
+  box-shadow: var(--box-shadow);
+  background: #fff;
+}
+
+header .logo {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: var(--black);
+}
+
+header .logo span {
+  color: var(--black);
+}
+
+header .nav a {
+  margin-left: 3px;
+  border-radius: 50px;
+  color: var(--black);
+  padding: 5px 15px;
+}
+
+header .nav a.active,
+header .nav a:hover {
+  background: var(--main-color);
+  box-shadow: var(--box-shadow);
+  color: #fff;
+}
+
+#menu-bar {
+  color: var(--black);
+  cursor: pointer;
+  font-size: 25px;
+  transition: 0.2s linear;
+}
+
+.inicio .content span {
+  color: var(--main-color);
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.inicio .content h3 {
+  color: var(--black);
+  font-size: 50px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.sobre .content h3 {
+  color: var(--black);
+  font-size: 33px;
+}
+
+.about .content p {
+  color: #777;
+  font-size: 14px;
+}
+
+.prevencao h1 {
+  text-transform: capitalize;
+}
+
+.prevencao h1 span {
+  color: var(--main-color);
+}
+
+.prevencao .box {
+  flex: 1 1 300px;
+  background: #f8f8fe;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.prevencao .box h3 {
+  color: var(--black);
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.prevencao .box p {
+  color: var(--black);
+  font-size: 14px;
+}
+
+.datas .content span {
+  color: var(--main-color);
+}
+
+.contact h1 span {
+  color: var(--main-color);
+}
+
+.contact form {
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+}
+
+.contact form .box,
+.contact form textarea {
+  background: #f8f8fe;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 10px;
+  margin: 7px 0;
+  width: 100%;
+  text-transform: none;
+  color: var(--black);
+}
+
+.contact form textarea {
+  resize: none;
+  height: 200px;
+}
+
+.contact .map {
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.footer .box {
+  flex: 1 1 250px;
+}
+
+.footer .box h3 {
+  font-size: 20px;
+  color: var(--black);
+}
+
+.footer .credito {
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--black);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+.footer .credito span {
+  color: var(--main-color);
+}
